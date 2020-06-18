@@ -1,12 +1,9 @@
-import Head from 'next/head'
+import Layout from '../components/Layout';
 
 export default function Home() {
   return (
-    <>
-    <Head>
-      <title>Blog By nextjs</title>
-    </Head>
-   <h1>Blog</h1>
-   </>
-  )
+    <Layout>
+      <h1>Home</h1>
+    </Layout>
+  );
 }
