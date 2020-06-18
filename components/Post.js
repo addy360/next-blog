@@ -1,4 +1,5 @@
 import fetch from 'isomorphic-unfetch';
+
 const Post = props => {
   const {
     post: { userId, title, body }
